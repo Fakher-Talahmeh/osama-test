@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+body{
+    background: black;
+}
+header{
+ display: flex;   
+ width: 100%;
+ position:fixed;
+ justify-content: space-between;
+ align-items: center;
+ padding:10px 30px;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 25%;
+}
+.navigation{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.navigation a{
+    text-decoration: none;
+    color :white;
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+.navigation a:hover{
+    color: red;
+    padding-bottom:5px ;
+    border-bottom: 2px solid red;
+}
+.home{
+    
+    height: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 300px 100px;
+    
+}
+h3{
+    font-size: 1.5rem;
+    margin-bottom:15px ;
+}
+h2{
+    font-size: 2rem;
+    margin-top: 15px;
+}
+h1{
+    margin: 15px 0;
+    font-size: 6rem;
+}
+.word{
+    color: red;
+
+}
+.pic{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ /* padding: 250px 0 ;   */
+ height: 100vh;
+}
+.about-me{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: rgb(26, 25, 25);
+    height: 100vh;
+}
+.about-me-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ height: 100vh;
+}
+.about-me-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 200px;
+    height: 100%;
+}
+p{
+    padding: 50px;
+}
+.about-me-img{
+    width: 50%;
+}
